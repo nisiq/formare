@@ -1,0 +1,54 @@
+/* Define que o padding e a borda são incluídos na largura e altura totais dos elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Estiliza o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    background-color: #f3f3d8; /* Define a cor de fundo */
+    margin: 0; /* Remove a margem padrão */
+    padding: 20px; /* Adiciona padding ao redor do conteúdo */
+    display: flex; /* Usa o modelo de layout flexbox */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da viewport */
+}
+
+/* Adiciona uma margem ao redor do perfil */
+.profile {
+    margin: 50px;
+}
+
+/* Estiliza o contêiner do perfil */
+.profile-container {
+    display: flex; /* Usa o modelo de layout flexbox para o contêiner */
+    align-items: center; /* Alinha os itens centralizados verticalmente */
+    border: 2px solid #333; /* Adiciona uma borda sólida */
+    padding: 20px; /* Adiciona padding interno */
+    border-radius: 10px; /* Arredonda os cantos */
+    background-color: #fff; /* Define a cor de fundo */
+}
+
+/* Estiliza a imagem do perfil */
+.img-perfil {
+    width: 150px; /* Define a largura da imagem */
+    height: 150px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    margin-right: 20px; /* Adiciona margem à direita */
+}
+
+/* Estiliza o artigo */
+article {
+    flex-direction: column; /* Define a direção do layout dos filhos como coluna */
+}
+
+/* Estiliza o nome */
+.name {
+    color: #b700ff; /* Define a cor do texto */
+}
+
+/* Estiliza os parágrafos */
+p {
+    margin: 5px 0; /* Adiciona margem vertical */
+}
